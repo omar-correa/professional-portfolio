@@ -33,6 +33,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ## Mock-Up
 
 The following picture shows my web application's appearance and functionality:
+![portfolio-mock png](https://user-images.githubusercontent.com/113458061/194465341-d288e64a-9be1-46b9-bac7-51ba9e90772b.jpg)
 
 
 
