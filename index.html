@@ -1,93 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Omar Correa Professional Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="./Assets/style.css" media="screen"/>
-  </head>
 
-  <body>
-    <section>
-    <img src="./Assets/IMG_7732.JPG" class="nevada" alt="cover image of me in Red Rocks Nevada" />
-    </section>
-    <section>
-      <nav class="tabs">
-          <a class="tab1" href="#abtitle">About Me</a>
-          <a class="tab1" href="#work1">Work</a></li>
-          <a class="tab1" href="#cont1">Contact Me</a>
-          <a class="tab1" href="#res">Resume</a>
-        </ul>
-      </nav>
-    </section>
-      <img src="./Assets/headshotnew.png" class="headshot" alt="Omar's headshot" />
-      <div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Omar Correa Professional Portfolio</title>
+  <link rel="stylesheet" type="text/css" href="./Assets/style.css" media="screen" />
+</head>
+
+<body>
+  <section class="nevada">
+    <img src="./Assets/IMG_7732.JPG" class="nevadaimg" alt="cover image of me in Red Rocks Nevada" />
+  </section>
+  <nav class="tabs">
+    <a class="tab1" href="#abtitle">About Me</a>
+    <a class="tab1" href="#work1">Work</a></li>
+    <a class="tab1" href="#cont1">Contact Me</a>
+    <a class="tab1" href="#res">Resume</a>
+    </ul>
+  </nav>
+  <section class="introduction">
+    <div>
       <h1 class="name">Hello, I'm Omar Correa</h1>
-      </div>
-      <div>
       <h2 class="info">Real Estate Agent and soon-to-be Web Developer based in Miami, FL</h2>
-      </div>
+    </div>
+    <img src="./Assets/headshotnew.png" class="headshot" alt="Omar's headshot" />
+  </section>
 
-    <main>
-        <h3 id="abtitle">About Me</h3>
-      <section class="about-me">
-            <p>
-            For most of his life Omar has been very active, involved in a wide variety of sports such as 
-            basketball, soccer, and most recently snowboarding & rock climbing. While he has lived most
-            of his life in South Florida, he spent four years in Tallahassee pursuing his bachelors in
-            marketing. Immediately after college, he obtained his real estate license and 
-            has been helping families purchase their forever homes for almost three years now.
-            </p>
-            <p>
-                While that has brought him many rewarding experiences, he has frequently felt there has been
-                something missing for his own sense of self-fulfillment. He determined that to be his
-                thirst for finding a career that was more mentally challenging & demanding.
-                After much consideration, speaking to many people in the industry, and getting a
-                small taste of web development through Code Academy, where he began learning HTML & 
-                JavaScript, he decided that this career path would make the most sense for him and his short-term
-                & long-term goals. He enrolled in the UM coding bootcamp and is excited for what he is to learn and be
-                exposed to in the following 6 months.
-            </p>
-      </section>  
-      <section>    
-        <h3 id="work1">Work</h3>
-        <section class="work2">
-            <section><a href="https://climbing.com" target="_blank" rel="noopener noreferrer">
-              <img src="Assets/climbing.JPG" alt="Rock climbing website" class="rcsite" ></a>
-              <div class="bot-mid1">Climbing Site</div>
-            </section>
-            <section><a href="https://en.wikipedia.org/wiki/Real_estate" target="_blank" rel="noopener noreferrer">
-              <img src="Assets/re-site.jpg" alt="Real estate website" class="resite"></a>
-                <div class="bot-mid2" >Real Estate Site</div>
-              </section>
-            <section><a href="https://www.soccer.com/" target="_blank" rel="noopener noreferrer">
-              <img src="Assets/messi.jpg" alt="soccer video game" class="soccergame"></a>
-                <div class="bot-mid3">Soccer Video Game</div>
-              </section>
-              <section><a href="https://blog.hubspot.com/marketing/what-is-marketing" target="_blank" rel="noopener noreferrer">
-              <img src="./Assets/marketing-site.jpg" alt="marketing app" class="marksite"></a>
-                <div class="bot-mid4">Marketing Site</div>
-            </section>
-          </section>
+  <main>
+    <h3 id="abtitle">About Me</h3>
+    <section class="about-me container">
+      <p>
+        For most of his life Omar has been very active, involved in a wide variety of sports such as
+        basketball, soccer, and most recently snowboarding & rock climbing. While he has lived most
+        of his life in South Florida, he spent four years in Tallahassee pursuing his bachelors in
+        marketing. Immediately after college, he obtained his real estate license and
+        has been helping families purchase their forever homes for almost three years now.
+      </p>
+      <p>
+        While that has brought him many rewarding experiences, he has frequently felt there has been
+        something missing for his own sense of self-fulfillment. He determined that to be his
+        thirst for finding a career that was more mentally challenging & demanding.
+        After much consideration, speaking to many people in the industry, and getting a
+        small taste of web development through Code Academy, where he began learning HTML &
+        JavaScript, he decided that this career path would make the most sense for him and his short-term
+        & long-term goals. He enrolled in the UM coding bootcamp and is excited for what he is to learn and be
+        exposed to in the following 6 months.
+      </p>
     </section>
     <section>
-        <h3 id="cont1">Contact Me</h3>
+      <h3 id="work1">Work</h3>
+      <section class="work2 container">
+        <section class="imgsec"><a href="https://climbing.com" target="_blank" rel="noopener noreferrer">
+            <img src="Assets/climbing.JPG" alt="Rock climbing website" class="rcsite">
+            <div class="bot-mid1">Climbing Site</div>
+          </a>
+
+        </section>
+        <section class="imgsec"><a href="https://en.wikipedia.org/wiki/Real_estate" target="_blank"
+            rel="noopener noreferrer">
+            <img src="Assets/re-site.jpg" alt="Real estate website" class="resite">
+            <div class="bot-mid1">Real Estate Site</div>
+          </a>
+
+        </section>
+        <section class="imgsec"><a href="https://www.soccer.com/" target="_blank" rel="noopener noreferrer">
+            <img src="Assets/messi.jpg" alt="soccer video game" class="soccergame">
+            <div class="bot-mid1">Soccer Video Game</div>
+          </a>
+
+        </section>
+        <section class="imgsec"><a href="https://blog.hubspot.com/marketing/what-is-marketing" target="_blank"
+            rel="noopener noreferrer">
+            <img src="./Assets/marketing-site.jpg" alt="marketing app" class="marksite">
+            <div class="bot-mid1">Marketing Site</div>
+          </a>
+
+        </section>
+      </section>
     </section>
     <section>
-        <ul class="cont2">
-                <li>Cell: 786-378-9756</li>
-                <li>Email:<a href="mailto:omarcorrea378@yahoo.com">omarcorrea378@yahoo.com</a></li>
-                <li>LinkedIn: <a href="https://www.linkedin.com/in/omar-correa-6956b7151/">https://www.linkedin.com/in/omar-correa-6956b7151/</a></li>
-        </ul>
+      <h3 id="cont1">Contact Me</h3>
+      <ul class="cont2">
+        <li>Cell: 786-378-9756</li>
+        <li>Email:<a href="mailto:omarcorrea378@yahoo.com">omarcorrea378@yahoo.com</a></li>
+        <li>LinkedIn: <a
+            href="https://www.linkedin.com/in/omar-correa-6956b7151/">https://www.linkedin.com/in/omar-correa-6956b7151/</a>
+        </li>
+      </ul>
     </section>
-    <section>
+    <section class="resparent">
+      <section class="resu">
         <h3 id="res">Resume</h3>
-    </section>
-    <section>
         <img class="res1" src="./Assets/Resume.jpg" alt="a screenshot of Omar's resume">
+      </section>
     </section>
     <footer class="footer">
       <p>Thanks for visiting my Portfolio!</p>
     </footer>
-  </body>
+</body>
+
 </html>

@@ -1,65 +1,58 @@
 * {
     background-color: #28282B;
     color: whitesmoke;
-    margin: 15px;
-   
-
+    
+    
 }
 .nevada {
-    display: flex;
-    flex-direction: row;
-    height: 400px;
-    width: 92%;
     border-radius: 10px;
     border: 3px solid #e06f31;
-    margin-left: 50px;
-    margin-right: 100px;
+    margin: 0 auto;
+    width: 99%;
+}
+
+.nevadaimg {
+    object-fit: contain;
+    width: 100%;
+    border-radius: 10px;
 }
 
 .name {
-    font-size: 75px;
-    position: relative;
-    display: flex;
-    left: 100px;
-    margin-top: -250px;
-    width: 800px;
+    font-size: 75px;    
     
 }
 
 .info {
     font-size: 25px;
-    width: 600px;
     text-align: center;
-    justify-content: center;
-    display: flex;
-    margin-top: 20px;
-    margin-left: 200px;
 
 }
 
 .headshot {
     height: 350px;
     width: 350px;
-    position: relative;
-    right: -960px;
     border: 3px solid #e06f31;
     border-radius: 10px;
-    margin-top: -20px;
 }
 
+.introduction {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
 .tabs {
     font-size: 15px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    height: 50px;
-    margin-left: 80px;
-    margin-top: -10px;
+    width: max-content;
+    height: max-content;
+    margin-top: 30px;
+    margin-left: 20px;
 }   
 
 .tab1 {
     color: white;
     text-decoration: none;
-    position: relative;
-    top: 40px;
     border-radius: 10px;
     border: 3px solid #e06f31;
     padding: 5px;
@@ -87,6 +80,10 @@
     
 }
 
+.container {
+    margin: 0 auto;
+    width: 90%;
+}
 
 #work1 {
     font-size: 25px;
@@ -98,6 +95,11 @@
     margin-left: 40px;
 }
 
+.imgsec{
+    width: 50%;
+    text-align: center;
+}
+
 .work2 {
     display: flex;
     flex-direction: row;
@@ -107,7 +109,7 @@
     margin-top: -30px;
 }
 .rcsite {
-    width: 450px;
+    width: 60%;
     height: 350px;
     border-radius: 20px;
     border: 3px solid #e06f31;
@@ -119,7 +121,7 @@
 }
 
 .resite {
-    width: 450px;
+    width: 60%;
     height: 350px;
     border-radius: 20px;
     border: 3px solid #e06f31;
@@ -131,7 +133,7 @@
 }
 
 .soccergame {
-    width: 450px;
+    width: 60%;
     height: 350px;
     border-radius: 20px;
     border: 3px solid #e06f31;
@@ -143,7 +145,7 @@
 }
 
 .marksite {
-    width: 450px;
+    width: 60%;
     height: 350px;
     border-radius: 20px;
     border: 3px solid #e06f31;
@@ -155,9 +157,7 @@
 }
 
 .bot-mid1 {
-    position: absolute;
-    top: 1670px;
-    left: 400px;
+    position: relative;
     font-size: 30px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #e06f31;
@@ -166,41 +166,6 @@
     background-color: honeydew;
 }
 
-.bot-mid2 {
-    position: absolute;
-    top: 1670px;
-    left: 920px;
-    font-size: 30px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #e06f31;
-    border: 3px solid #ffffff;
-    border-radius: 10px;
-    background-color: honeydew;
-}
-
-.bot-mid3 {
-    position: absolute;
-    top: 2090px;
-    left: 350px;
-    font-size: 30px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #e06f31;
-    border: 3px solid #ffffff;
-    border-radius: 10px;
-    background-color: honeydew;
-}
-
-.bot-mid4 {
-    position: absolute;
-    top: 2090px;
-    left: 930px;
-    font-size: 30px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #e06f31;
-    border: 3px solid #ffffff;
-    border-radius: 10px;
-    background-color: honeydew;
-}
 
 #cont1 {
     font-size: 25px;
@@ -217,8 +182,6 @@
     align-items: center;
     border-radius: 20px;
     border: 3px solid #e06f31;
-    width: 500px;
-    margin-left: 430px;
 }
 
 #res {
@@ -230,13 +193,20 @@
     margin-top: 90px;
 }
 
-.res1 {
+.resparent{
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+.resu {
+    width: 30%;
+}
+.res1 {
     border-radius: 20px;
     border: 3px solid #e06f31;
-    margin-left: 350px;
-    margin-top: 20px;
+    object-fit: contain;
+    width: 100%;
+    height: 600px;
 }
 
 .footer {
@@ -244,4 +214,17 @@
     display: flex;
     justify-content: center;
     margin-top: 45px;
+}
+
+@media screen and (min-width:1400px) {
+   .introduction {flex-direction: row;
+    justify-content: space-around;
+
+}
+}
+
+@media screen and (max-width:1400px) {
+    .nevadaimg {
+        width: 100%;
+    }
 }
